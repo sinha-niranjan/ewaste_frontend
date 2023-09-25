@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import "./UserLogin.css"
+import "./AdminLogin.css"
 import { Link } from 'react-router-dom'
 
-const UserLogin = () => {
+const AdminLogin = () => {
     const [container,setContainer] = useState('')
   return (
     <div className ={`container ${container}`}>
@@ -21,7 +21,7 @@ const UserLogin = () => {
             <input type="submit" value="Login" className="btn solid"  />
 
             <Link to={"/buyer_login"}><p>Or Sign in as a Buyer</p></Link>
-            <Link to={"/admin_login"}><p>Or Sign in as an Admin</p></Link>
+            <Link to={"/user_login"}><p>Or Sign in as an Seller</p></Link>
 
             {/* <p className="social-text">Or Sign in with social platforms</p>
             <div className="social-media">
@@ -58,7 +58,7 @@ const UserLogin = () => {
             <input type="submit" value="Sign Up" className="btn solid" />
 
             <Link to={"/buyer_login"}><p>Or Sign in as a Buyer</p></Link>
-            <Link to={"/admin_login"}><p>Or Sign in as an Admin</p></Link>
+            <Link to={"/user_login"}><p>Or Sign in as an Seller</p></Link>
 
             {/* <p className="social-text">Or Sign up with social platforms</p>
             <div className="social-media">
@@ -102,4 +102,4 @@ const UserLogin = () => {
   )
 }
 
-export default UserLogin
+export default AdminLogin
