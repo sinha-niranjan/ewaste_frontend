@@ -12,16 +12,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-   ;
   width: 100%;
 }
 
 .logo {
   font-size: 36px;
-  font-weight:500;
+  font-weight: 500;
   margin-left: 100px;
   width: 30%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #3d3b3b;
 }
 
@@ -30,14 +29,17 @@
   justify-content: space-between;
   margin: 4rem;
   width: 50%;
-  font-size: 20px;
-  font-weight: 300;
-  font-family: 'Roboto', sans-serif;
-  color: #9A8D8B;
+  
 }
 
+.link>a{
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  color: #9a8d8b;
+}
 
-.login_btn{
-    color: #18E85F;
-    font-weight: 500;
+.login_btn {
+  color: #18e85f;
+  font-weight: 500;
 }
