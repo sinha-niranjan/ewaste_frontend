@@ -1,0 +1,43 @@
+.nav {
+  width: 100%;
+  background-color: #e2f2e4;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 20;
+}
+
+.nav_link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   ;
+  width: 100%;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight:500;
+  margin-left: 100px;
+  width: 30%;
+  font-family: 'Roboto', sans-serif;
+  color: #3d3b3b;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem;
+  width: 50%;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  color: #9A8D8B;
+}
+
+
+.login_btn{
+    color: #18E85F;
+    font-weight: 500;
+}
