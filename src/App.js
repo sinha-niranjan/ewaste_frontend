@@ -2,6 +2,7 @@
 import './App.css';
 import Header from './Components/Header/Header';
 import Heroic from './Components/Heroic/Heroic';
+import HomeDetail from './Components/HomeDetail/HomeDetail';
 import LocationSearch from './Components/LocationSearch/LocationSearch';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Heroic />
       <LocationSearch />
+      <HomeDetail />
     </div>
   );
 }
