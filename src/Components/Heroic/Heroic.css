@@ -1,6 +1,4 @@
-.green {
-  color: #37c670;
-}
+
 
 .heroic {
   background-color: #e2f2e4;
@@ -59,5 +57,5 @@
 .heroic_logo {
   width: 50%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
