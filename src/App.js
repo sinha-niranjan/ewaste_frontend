@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import UserLogin from "./Components/UserLogin/UserLogin";
 import BuyerLogin from "./Components/BuyerLogin/BuyerLogin";
 import AdminLogin from "./Components/AdminLogin/AdminLogin";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/buyer_login" element={<BuyerLogin />} />
           <Route exact path="/admin_login" element={<AdminLogin />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

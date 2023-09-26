@@ -9,7 +9,7 @@ const BuyerLogin = () => {
       <div className="forms-container">
         <div className="signin-signup">
           <form action="" className="sign-in-form">
-            <h2 className="title">Admin Sign In</h2>
+            <h2 className="title">Buyer Sign In</h2>
             <div className="input-field">
               <i className="fas fa-user"></i>
               <input type="text" placeholder="Username" />
@@ -45,7 +45,7 @@ const BuyerLogin = () => {
           </form>
 
           <form action="" className="sign-up-form">
-            <h2 className="title"> Admin Sign Up</h2>
+            <h2 className="title"> Buyer Sign Up</h2>
             <div className="input-field">
               <i className="fas fa-user"></i>
               <input type="text" placeholder="Username" />
