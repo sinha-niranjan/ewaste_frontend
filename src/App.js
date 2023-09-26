@@ -7,6 +7,7 @@ import UserLogin from "./Components/UserLogin/UserLogin";
 import BuyerLogin from "./Components/BuyerLogin/BuyerLogin";
 import AdminLogin from "./Components/AdminLogin/AdminLogin";
 import Footer from "./Components/Footer/Footer";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/user_login" element={<UserLogin />} />
           <Route exact path="/buyer_login" element={<BuyerLogin />} />
           <Route exact path="/admin_login" element={<AdminLogin />} />
+          <Route exact path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>

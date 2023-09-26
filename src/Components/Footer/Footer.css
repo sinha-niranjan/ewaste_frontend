@@ -3,10 +3,11 @@
 footer {
   display: flex;
   align-items: center;
-  margin-top: 10vmax;
+  
   padding: 2vmax;
-  background-color: #37C670;
-  color: white;
+  background-color: #8be6af;
+  color: #3d3b3b;
+  
   min-height: 50vh;
 }
 
@@ -46,7 +47,7 @@ footer {
   font-size: 4vmax;
   font-weight: 600;
   font-family: "Noto Sans", sans-serif;
-  color: #eb4034;
+  color: #128d3b;
 }
 .midFooter > p {
   max-width: 50%;
@@ -77,7 +78,8 @@ footer {
 .footer-icon:hover {
   font-size: 3.9em;
 
-  color: #eb4034;
+  color: #128d3b;
+
 }
 
 @media (max-width: 800px) {

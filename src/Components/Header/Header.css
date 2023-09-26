@@ -40,6 +40,7 @@
   font-family: "Roboto", sans-serif;
   color: #9a8d8b;
   transition: all 0.3s;
+  
 }
 
 .link>a:hover{
@@ -50,13 +51,12 @@
 .login_btn {
   color: #18e85f;
   font-weight: 500;
-  
 }
 
 
 .login_btn:hover{
   background-color: #18e85f;
   color: white;
-  border-radius: 5px;
-  
+  border-radius: .2rem;
+  transform: scale(1.2);
 }
