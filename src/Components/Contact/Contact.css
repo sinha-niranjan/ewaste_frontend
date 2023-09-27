@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:#18e85f;
-  padding: 8rem;
+  /* background-color:#18e85f; */
+  padding: 7rem;
 }
 
 .contact-container{
@@ -53,8 +53,12 @@
     padding: 1rem 2rem;
     font-size: 20px;
     border-radius: 1rem;
-    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+     
     transition: all 0.3s;
+    border: none;
+    color: #3d3b3b;
+
 }
 
 

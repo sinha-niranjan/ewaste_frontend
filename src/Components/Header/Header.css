@@ -31,32 +31,39 @@
   justify-content: space-between;
   margin: 4rem;
   width: 50%;
-  
 }
 
-.link>a{
+.link_a {
   font-size: 20px;
   font-weight: 300;
   font-family: "Roboto", sans-serif;
   color: #9a8d8b;
   transition: all 0.3s;
-  
+  padding: 0.5rem;
 }
 
-.link>a:hover{
+.link_a:hover {
   transform: scale(1.2);
   color: #18e85f;
 }
 
 .login_btn {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+
+  transition: all 0.3s;
+  padding: 0.5rem;
   color: #18e85f;
   font-weight: 500;
 }
 
-
-.login_btn:hover{
+.login_btn:hover {
   background-color: #18e85f;
   color: white;
-  border-radius: .2rem;
+  border-radius: 0.5rem;
   transform: scale(1.2);
+}
+.login_btn > h5:hover {
+  color: white;
 }

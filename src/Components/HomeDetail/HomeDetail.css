@@ -1,6 +1,6 @@
 .detail {
   width: 100%;
- 
+
   background-color: #e2f2e4;
   border-radius: 220px;
   display: flex;
@@ -30,46 +30,57 @@
   margin-bottom: 2rem;
 }
 
-.detail_container>p{
-    margin-right: 5rem;
-     
+.detail_container > p {
+  margin-right: 5rem;
 }
 
-.points{
-    margin-top: 2rem;
+.points {
+  margin-top: 2rem;
 }
 
-.check{
-    color: #37c670;
-    font-size: 20px;
+.check {
+  color: #37c670;
+  font-size: 20px;
 }
 
-.point{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: .5rem;
-    margin-right: 4.5rem;
+.point {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0.5rem;
+  margin-right: 4.5rem;
 }
 
-.box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #37c670;
-    width: 270px;
-    padding: 1rem;
-    border-radius: 40px;
-    margin: 5rem;
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #37c670;
+  width: 270px;
+  padding: 1rem;
+  border-radius: 40px;
+  margin: 5rem;
+  transition: all 0.3s;
 }
 
-.box>p{
-    font-size: 26px;
-    color: white;
-    font-weight: 400;
+.box:hover {
+  transform: scale(1.1);
+  background-color: #2b9756;
 }
 
-.youtube{
-    color:#37c670;
-    font-size: 100px;
+.box > p {
+  font-size: 26px;
+  color: white;
+  font-weight: 400;
+}
+
+.youtube {
+  color: #37c670;
+  font-size: 100px;
+  transition: all 0.3s;
+}
+
+.youtube:hover {
+  transform: scale(1.2);
+  color: #2b9756;
 }

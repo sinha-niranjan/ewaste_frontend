@@ -30,6 +30,8 @@
   margin-top: 2rem;
   
 }
+
+
 .heroic_container_right {
   width: 50%;
   padding-right: 10rem;
@@ -52,6 +54,13 @@
   color: white;
   font-size: 20px;
   margin-top: 2rem;
+  transition: all 0.3s;
+}
+
+.heroic_btn:hover{
+  transform: scale(1.1);
+  background-color: #2b9756;
+  
 }
 
 .heroic_logo {
