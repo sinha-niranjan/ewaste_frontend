@@ -14,7 +14,7 @@ const Header = () => {
           <Link to={"/nearby"} style={{ textDecoration: "none" }} className="link_a" >
             <p>Nearby</p>
           </Link>
-          <Link to={"https://chat-app-frontend-lnr2un0ok-sinha-niranjan.vercel.app/app"} style={{ textDecoration: "none" }} className="link_a">
+          <Link to={"https://chat-app-frontend-sinha-niranjan.vercel.app/app"} style={{ textDecoration: "none" }} className="link_a">
             <p>Message</p>
           </Link>
           <Link to={"/contact"} style={{ textDecoration: "none" }} className="link_a">
