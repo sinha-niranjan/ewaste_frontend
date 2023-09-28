@@ -2,11 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 .about-area{
-    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.about-img{
-    position: relative;
+
+.about_container{
+    padding: 10rem;
+    display: flex;
+    align-items: center;
 }
+
+
 .about-img:before{
     position: relative;
     content: '';
@@ -20,7 +27,9 @@
     width: 100%;
 }
 .about-text{
-    padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
 }
 .about-text h2{
     color: black;
@@ -32,10 +41,14 @@
     font-size: 18px;
     color: black;
 }
-.about-text a{
+.about-text>a{
     background: #b5a7f8;
     color: #fff;
     padding: 7px 15px;
-    display: inline-block;
     margin-top: 20px;
+    width: 10rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
