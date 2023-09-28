@@ -222,6 +222,10 @@ footer{
   margin-right: 15px;
   padding: 5px;
   cursor: pointer;
+  transition: all 0.3s;
+}
+.social_icon:hover{
+  transform: scale(1.5);
 }
 hr{
   width: 90%;
