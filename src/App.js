@@ -8,6 +8,7 @@ import BuyerLogin from "./Components/BuyerLogin/BuyerLogin";
 import AdminLogin from "./Components/AdminLogin/AdminLogin";
 import Footer from "./Components/Footer/Footer";
 import Contact from "./Components/Contact/Contact";
+import About from "./Components/About/About";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/buyer_login" element={<BuyerLogin />} />
           <Route exact path="/admin_login" element={<AdminLogin />} />
           <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/about" element={<About /> } />
         </Routes>
         <Footer />
       </Router>
