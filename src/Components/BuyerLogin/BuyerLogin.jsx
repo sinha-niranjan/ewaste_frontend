@@ -87,7 +87,7 @@ const BuyerLogin = () => {
       </div>
       <div className="panels-container">
         <div className="panel left-panel">
-          <div className="content">
+          <div className="login_content">
             <h3>New here?</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
@@ -105,7 +105,7 @@ const BuyerLogin = () => {
         </div>
 
         <div className="panel right-panel">
-          <div className="content">
+          <div className="login_content">
             <h3>One of us?</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio

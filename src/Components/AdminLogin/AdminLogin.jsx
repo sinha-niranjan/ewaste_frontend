@@ -81,7 +81,7 @@ const AdminLogin = () => {
       <div className="panels-container">
 
         <div className="panel left-panel">
-            <div className="content">
+            <div className="login_content">
                 <h3>New here?</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio minus natus est.</p>
                 <button className="btn transparent" id="sign-up-btn" onClick={() => setContainer('sign-up-mode')}>Sign Up</button>
@@ -90,7 +90,7 @@ const AdminLogin = () => {
         </div>
 
         <div className="panel right-panel">
-            <div className="content">
+            <div className="login_content">
                 <h3>One of us?</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio minus natus est.</p>
                 <button className="btn transparent" id="sign-in-btn" onClick={() => setContainer('')}>Sign In</button>
